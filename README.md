@@ -28,7 +28,12 @@ Before launch the script install these packages in your **Python3** environment:
 
 * [CLI Checkpoints](https://drive.google.com/open?id=1w6ZO47To4BGh67WjeFCTBZiGVMFrK_po): *在运行之前需下载三个.lib文件，之后在项目根目录下新建checkpoints目录，将下载的三个文件放至checkpoints目录下*
 
-* [备用磁力链接](magnet:?xt=urn:btih:7BE4EB8D640742D2FFEBD6495E9392E9E2C399BC)：若以上Google drive链接挂了可使用该链接。下载速度还蛮快的:)
+* [备用磁力链接](magnet:?xt=urn:btih:7BE4EB8D640742D2FFEBD6495E9392E9E2C399BC)：
+```
+magnet:?xt=urn:btih:7BE4EB8D640742D2FFEBD6495E9392E9E2C399BC
+```
+
+若以上Google drive链接挂了可使用该链接。下载速度还蛮快的:)
 
 
 # Launch the script
