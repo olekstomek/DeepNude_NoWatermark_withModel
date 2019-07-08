@@ -1,9 +1,15 @@
 
 # DeepNude
 
-DeepNude Source Code DeepNude源代码 去水印 附加模型下载地址
+DeepNude Source Code 
 
-供广大程序员技术交流使用
+DeepNude源代码 
+
+去水印 (without watermark) 
+
+带三个模型.lib文件下载地址 (with the download link of the 3 model files:cm.lib,mm.lib,mn.lib)
+
+供广大程序员技术交流使用 (for research and development communication)
 
 # Preinstallation
 
@@ -16,7 +22,7 @@ Before launch the script install these packages in your **Python3** environment:
 - torchvision
 - wheel
 
-建议使用Conda安装 :)
+建议使用Conda安装 :) 
 
 
 ```
@@ -48,7 +54,7 @@ The script will transform *input.png* to *output.png*.
 
 # GPU
 
-本项目默认使用id为0的GPU运行。
+本项目默认使用id为0的GPU运行。 (default use GPU with id 0. if your environment do not have GPU, please modify the code in gan.py)
 
 若运行环境不带GPU，则报错。如果没有GPU或想使用CPU运行程序，请将gan.py中
 
@@ -56,7 +62,7 @@ The script will transform *input.png* to *output.png*.
 self.gpu_ids = [0] #FIX CPU
 ```
 
-改为
+改为 (to)
 
 ```
 self.gpu_ids = [] #FIX CPU
