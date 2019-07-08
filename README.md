@@ -1,11 +1,11 @@
 
 # DeepNude
 
-DeepNude source code 源代码 去水印 附加模型下载地址
+DeepNude Source Code DeepNude源代码 去水印 附加模型下载地址
 
 供广大程序员技术交流使用
 
-# Prerequisite
+# Preinstallation
 
 Before launch the script install these packages in your **Python3** environment:
 - numpy
