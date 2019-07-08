@@ -41,9 +41,22 @@ Before launch the script install these packages in your **Python3** environment:
 
 The script will transform *input.png* to *output.png*.
 
+# GPU
 
+本项目默认使用id为0的GPU运行。
+
+若运行环境不带GPU，则报错。如果没有GPU或想使用CPU运行程序，请将gan.py中
+
+```
+self.gpu_ids = [0] #FIX CPU
+```
+
+改为
+
+```
+self.gpu_ids = [] #FIX CPU
+```
 
 ## Links
-- https://github.com/deep-man-yy/easydeepnude
 - https://pytorch.org/
 
