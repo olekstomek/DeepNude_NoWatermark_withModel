@@ -30,6 +30,10 @@ Before launch the script install these packages in your **Python3** environment:
  conda activate deepnude
 ```
 
+**注：如果懒得折腾Python环境，也可以使用docker一键运行，见下**
+
+感谢网友[飞哥](https://github.com/fizzday)提供docker一键运行部分技术支持
+
 ## 使用docker一键运行
 ```bash
 cd ~
