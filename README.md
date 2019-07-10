@@ -3,7 +3,7 @@
 
 DeepNude Source Code 
 
-DeepNude源代码  - 基于GAN的给小姐姐“换"衣服
+DeepNude源代码  - 基于GAN的一条命令给小姐姐“换"衣服
 
 去水印 (without watermark) 
 
