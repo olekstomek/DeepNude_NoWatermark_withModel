@@ -30,6 +30,17 @@ Before launch the script install these packages in your **Python3** environment:
  conda activate deepnude
 ```
 
+## 使用docker一键运行
+```bash
+cd ~
+
+git clone https://github.com/zhengyima/DeepNude_NoWatermark_withModel.git deepnude
+
+docker run -it ababy/python-deepnude -v ./deepnude/:/app/ ababy/python-deepnude /bin/bash
+
+python main.py
+```
+
 # Models
 
 * [CLI Checkpoints](https://drive.google.com/open?id=1w6ZO47To4BGh67WjeFCTBZiGVMFrK_po): *在运行之前需下载三个.lib文件，之后在项目根目录下新建checkpoints目录，将下载的三个文件放至checkpoints目录下*
