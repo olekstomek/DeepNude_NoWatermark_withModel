@@ -47,7 +47,7 @@ magnet:?xt=urn:btih:7BE4EB8D640742D2FFEBD6495E9392E9E2C399BC
 环境配好，模型下好之后便可以运行代码了！
 
 ```
- python3 main.py
+ python main.py
 ```
 
 The script will transform *input.png* to *output.png*.
