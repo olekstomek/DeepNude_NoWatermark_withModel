@@ -18,7 +18,7 @@ Before launch the script install these packages in your **Python3** environment:
 - Pillow
 - setuptools
 - six
-- torch 
+- pytorch 
 - torchvision
 - wheel
 
