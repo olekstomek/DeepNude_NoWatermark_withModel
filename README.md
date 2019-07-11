@@ -11,6 +11,8 @@ DeepNude源代码  - 基于GAN的一条命令给小姐姐“换"衣服
 
 供广大程序员技术交流使用 (for research and development communication)
 
+demo地址：[http://39.105.149.229/](http://39.105.149.229/) demo很脆弱，不要做坏事，不然就关掉- -
+
 # Preinstallation
 
 Before launch the script install these packages in your **Python3** environment:
