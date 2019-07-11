@@ -44,7 +44,7 @@ git clone https://github.com/zhengyima/DeepNude_NoWatermark_withModel.git deepnu
 
 cd deepnude
 
-docker run -it -v $PWD:/app ababy/python-deepnude /bin/bash
+docker run --rm -it -v $PWD:/app:rw ababy/python-deepnude /bin/bash
 
 python main.py
 ```
