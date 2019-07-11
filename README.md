@@ -11,7 +11,7 @@ DeepNude源代码  - 基于GAN的一条命令给小姐姐“换"衣服
 
 供广大程序员技术交流使用 (for research and development communication)
 
-[demo地址](http://39.105.149.229/): demo很原始也很脆弱，不要做坏事哦，不然就关掉= =
+[demo地址](http://39.105.149.229/): demo很原始脆弱不鲁棒，所以感兴趣的话尽量还是自己去跑代码吧。不要对demo做坏事哦，不然就关掉= =
 
 # Preinstallation
 
