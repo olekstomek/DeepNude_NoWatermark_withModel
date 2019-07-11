@@ -72,8 +72,8 @@ magnet:?xt=urn:btih:7BE4EB8D640742D2FFEBD6495E9392E9E2C399BC
 
 The script will transform *input.png* to *output.png*.
 
-**如果想要使用自己的图片进行测试，需手动将图片尺寸调整至512x512大小，否则会报错！！**
-[#issue 5](https://github.com/zhengyima/DeepNude_NoWatermark_withModel/issues/5)
+~~**如果想要使用自己的图片进行测试，需手动将图片尺寸调整至512x512大小，否则会报错！！**~~
+[#issue 5](https://github.com/zhengyima/DeepNude_NoWatermark_withModel/issues/5) 
 
 
 # GPU
