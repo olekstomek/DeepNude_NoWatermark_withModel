@@ -42,10 +42,11 @@ cd ~
 
 git clone https://github.com/zhengyima/DeepNude_NoWatermark_withModel.git deepnude
 
-docker run -it ababy/python-deepnude -v ./deepnude/:/app/ ababy/python-deepnude /bin/bash
+docker run -it -v ./deepnude/:/app/ ababy/python-deepnude /bin/bash
 
 python main.py
 ```
+> 注意: docker运行只能使用cpu,所以,需要修改gpu运行为cpu, 修改方法请参考 [#GPU](#gpu). 实际运行速度也慢不了多少
 
 # Models
 
