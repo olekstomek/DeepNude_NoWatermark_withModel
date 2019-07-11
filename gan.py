@@ -57,6 +57,8 @@ class DeepModel(torch.nn.Module):
 
 	def initialize(self, opt):
 
+		torch.cuda.empty_cache()
+
 		self.opt = opt
 
 		self.gpu_ids = [0] #FIX CPU
@@ -67,6 +69,8 @@ class DeepModel(torch.nn.Module):
 
 		# load networks
 		self.__load_network(self.netG)
+
+		
 	
 	def inference(self, label, inst):
 		
