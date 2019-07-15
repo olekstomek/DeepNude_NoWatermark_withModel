@@ -9,7 +9,7 @@ with the download link of the 3 model files:cm.lib,mm.lib,mn.lib
 
 for research and development communication
 
-[demo link](http://39.105.149.229/): The demo is a primary, delicate and not robust enough, so try to focus more on the github repository and run the program yourself :)
+~~[demo link](http://39.105.149.229/): The demo is a primary, delicate and not robust enough, so try to focus more on the github repository and run the program yourself :)~~
 
 # Preinstallation
 
