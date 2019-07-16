@@ -5,7 +5,7 @@ DeepNude Source Code
 
 [The README.md in English](https://github.com/zhengyima/DeepNude_NoWatermark_withModel/blob/master/README_EN.md)
 
-DeepNude源代码  - 基于GAN的一条命令给小姐姐“换"衣服
+DeepNude源代码
 
 去水印 
 
