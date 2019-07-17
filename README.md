@@ -50,7 +50,9 @@ docker run --rm -it -v $PWD:/app:rw ababy/python-deepnude /bin/bash
 
 python main.py
 ```
-> 注意: docker运行只能使用cpu,所以,需要修改gpu运行为cpu, 修改方法请参考 [#GPU](#gpu). 实际运行速度也慢不了多少
+> 注意: docker运行只能使用cpu,所以,需要修改gpu运行为cpu, 修改方法请参考 [#GPU](#gpu). 实际运行速度也慢不了多少.  
+
+> 对应的三个 .lib 文件需要自己手动下载后, 添加到项目根目录 `checkpoints` 目录下, 才能正常运行, 由于文件太大, 就没有放入docker镜像
 
 # Models
 
