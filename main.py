@@ -2,6 +2,9 @@
 import sys
 import cv2
 import argparse
+import os
+import sys
+import subprocess
 
 from run import process
 
@@ -13,6 +16,12 @@ main.py
 
 """
 
+def open_file(filepath):
+    if sys.platform == "win32":
+        os.startfile(filepath)
+    else:
+        opener ="open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, filepath])
 
 def main(inputpath, outpath):
 	dress = cv2.imread(inputpath)
@@ -28,6 +37,8 @@ def main(inputpath, outpath):
 	watermark = cv2.resize(watermark, (w,h), interpolation=cv2.INTER_CUBIC)
 
 	cv2.imwrite(outputpath, watermark)
+
+	open_file(outputpath)
 
 	#sys.exit()
 
